@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "indev-wool",
+	"version": "${version}",
+	"name": "Indev Wool",
+	"description": "Adds old indev wool blocks to modern minecraft",
+	"authors": [
+		"Neville"
+	],
+	"contact": {
+		"homepage": "https://github.com/NevPeth",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/indev-wool/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"neville.indevwool.IndevWool"
+		],
+		"fabric-datagen": [
+			"neville.indevwool.IndevWoolDataGenerator"
+		],
+		"client": [
+			"neville.indevwool.IndevWoolClient"
+		]
+	},
+	"mixins": [
+		"indev-wool.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
