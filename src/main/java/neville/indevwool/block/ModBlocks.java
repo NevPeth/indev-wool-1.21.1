@@ -52,7 +52,7 @@ public class ModBlocks {
             entries.add(ModBlocks.INDEV_GREEN_WOOL);
             entries.add(ModBlocks.INDEV_CYAN_WOOL);
             entries.add(ModBlocks.INDEV_LIGHT_BLUE_WOOL);
-            entries.add(ModBlocks.INDEV_BROWN_WOOL);
+            entries.add(ModBlocks.INDEV_BROWN_WOOL); //actually a blue tinted color
             entries.add(ModBlocks.INDEV_BLUE_WOOL);
             entries.add(ModBlocks.INDEV_PURPLE_WOOL);
             entries.add(ModBlocks.INDEV_MAGENTA_WOOL);
