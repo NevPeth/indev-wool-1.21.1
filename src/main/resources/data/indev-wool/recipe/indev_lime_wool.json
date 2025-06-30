@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:lime_wool"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "indev-wool:indev_lime_wool"
+  }
+}

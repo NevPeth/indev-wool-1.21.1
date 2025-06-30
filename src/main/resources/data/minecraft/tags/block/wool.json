@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "indev-wool:indev_red_wool",
+    "indev-wool:indev_orange_wool",
+    "indev-wool:indev_yellow_wool",
+    "indev-wool:indev_lime_wool",
+    "indev-wool:indev_green_wool",
+    "indev-wool:indev_cyan_wool",
+    "indev-wool:indev_light_blue_wool",
+    "indev-wool:indev_brown_wool",
+    "indev-wool:indev_blue_wool",
+    "indev-wool:indev_purple_wool",
+    "indev-wool:indev_magenta_wool",
+    "indev-wool:indev_pink_wool",
+    "indev-wool:indev_white_wool",
+    "indev-wool:indev_light_gray_wool",
+    "indev-wool:indev_gray_wool",
+    "indev-wool:indev_black_wool"
+  ]
+}

@@ -16,6 +16,21 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block INDEV_RED_WOOL = registerBlock("indev_red_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_ORANGE_WOOL = registerBlock("indev_orange_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_YELLOW_WOOL = registerBlock("indev_yellow_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_LIME_WOOL = registerBlock("indev_lime_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_GREEN_WOOL = registerBlock("indev_green_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_CYAN_WOOL = registerBlock("indev_cyan_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_LIGHT_BLUE_WOOL = registerBlock("indev_light_blue_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_BROWN_WOOL = registerBlock("indev_brown_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_BLUE_WOOL = registerBlock("indev_blue_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_PURPLE_WOOL = registerBlock("indev_purple_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_MAGENTA_WOOL = registerBlock("indev_magenta_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_PINK_WOOL = registerBlock("indev_pink_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_WHITE_WOOL = registerBlock("indev_white_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_LIGHT_GRAY_WOOL = registerBlock("indev_light_gray_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_GRAY_WOOL = registerBlock("indev_gray_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_BLACK_WOOL = registerBlock("indev_black_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -31,6 +46,21 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.INDEV_RED_WOOL);
+            entries.add(ModBlocks.INDEV_ORANGE_WOOL);
+            entries.add(ModBlocks.INDEV_YELLOW_WOOL);
+            entries.add(ModBlocks.INDEV_LIME_WOOL);
+            entries.add(ModBlocks.INDEV_GREEN_WOOL);
+            entries.add(ModBlocks.INDEV_CYAN_WOOL);
+            entries.add(ModBlocks.INDEV_LIGHT_BLUE_WOOL);
+            entries.add(ModBlocks.INDEV_BROWN_WOOL);
+            entries.add(ModBlocks.INDEV_BLUE_WOOL);
+            entries.add(ModBlocks.INDEV_PURPLE_WOOL);
+            entries.add(ModBlocks.INDEV_MAGENTA_WOOL);
+            entries.add(ModBlocks.INDEV_PINK_WOOL);
+            entries.add(ModBlocks.INDEV_WHITE_WOOL);
+            entries.add(ModBlocks.INDEV_LIGHT_GRAY_WOOL);
+            entries.add(ModBlocks.INDEV_GRAY_WOOL);
+            entries.add(ModBlocks.INDEV_BLACK_WOOL);
         });
     }
 }

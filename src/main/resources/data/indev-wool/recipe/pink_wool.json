@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "indev-wool:indev_pink_wool"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:pink_wool"
+  }
+}

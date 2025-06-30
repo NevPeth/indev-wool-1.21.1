@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "indev-wool:block/indev_magenta_wool"
+  }
+}

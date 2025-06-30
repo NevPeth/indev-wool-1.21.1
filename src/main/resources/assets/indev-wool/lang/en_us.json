@@ -1,4 +1,19 @@
 {
   "block.indev-wool.indev_red_wool": "Indev Red Wool",
+  "block.indev-wool.indev_orange_wool": "Indev Orange Wool",
+  "block.indev-wool.indev_yellow_wool": "Indev Yellow Wool",
+  "block.indev-wool.indev_lime_wool": "Indev Lime Wool",
+  "block.indev-wool.indev_green_wool": "Indev Green Wool",
+  "block.indev-wool.indev_cyan_wool": "Indev Cyan Wool",
+  "block.indev-wool.indev_light_blue_wool": "Indev Sky Blue Wool",
+  "block.indev-wool.indev_brown_wool": "Indev Pacific Blue Wool",
+  "block.indev-wool.indev_blue_wool": "Indev Blue Wool",
+  "block.indev-wool.indev_purple_wool": "Indev Purple Wool",
+  "block.indev-wool.indev_magenta_wool": "Indev Magenta Wool",
+  "block.indev-wool.indev_pink_wool": "Indev Pink Wool",
+  "block.indev-wool.indev_white_wool": "Indev White Wool",
+  "block.indev-wool.indev_light_gray_wool": "Indev Light Gray Wool",
+  "block.indev-wool.indev_gray_wool": "Indev Gray Wool",
+  "block.indev-wool.indev_black_wool": "Indev Black Wool",
   "itemgroup.indev-wool.indev_wool_blocks": "Indev Wools"
 }

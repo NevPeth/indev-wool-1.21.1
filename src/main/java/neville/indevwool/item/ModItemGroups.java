@@ -18,6 +18,21 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.indev-wool.indev_wool_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.INDEV_RED_WOOL);
+                        entries.add(ModBlocks.INDEV_ORANGE_WOOL);
+                        entries.add(ModBlocks.INDEV_YELLOW_WOOL);
+                        entries.add(ModBlocks.INDEV_LIME_WOOL);
+                        entries.add(ModBlocks.INDEV_GREEN_WOOL);
+                        entries.add(ModBlocks.INDEV_CYAN_WOOL);
+                        entries.add(ModBlocks.INDEV_LIGHT_BLUE_WOOL);
+                        entries.add(ModBlocks.INDEV_BROWN_WOOL);
+                        entries.add(ModBlocks.INDEV_BLUE_WOOL);
+                        entries.add(ModBlocks.INDEV_PURPLE_WOOL);
+                        entries.add(ModBlocks.INDEV_MAGENTA_WOOL);
+                        entries.add(ModBlocks.INDEV_PINK_WOOL);
+                        entries.add(ModBlocks.INDEV_WHITE_WOOL);
+                        entries.add(ModBlocks.INDEV_LIGHT_GRAY_WOOL);
+                        entries.add(ModBlocks.INDEV_GRAY_WOOL);
+                        entries.add(ModBlocks.INDEV_BLACK_WOOL);
                     })
                     .build());
 
