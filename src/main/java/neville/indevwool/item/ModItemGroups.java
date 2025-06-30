@@ -33,6 +33,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.INDEV_LIGHT_GRAY_WOOL);
                         entries.add(ModBlocks.INDEV_GRAY_WOOL);
                         entries.add(ModBlocks.INDEV_BLACK_WOOL);
+
+                        entries.add(ModBlocks.INDEV_RED_CARPET);
                     })
                     .build());
 

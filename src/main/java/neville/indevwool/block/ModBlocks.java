@@ -2,6 +2,7 @@ package neville.indevwool.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.CarpetBlock;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -32,6 +33,8 @@ public class ModBlocks {
     public static final Block INDEV_GRAY_WOOL = registerBlock("indev_gray_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
     public static final Block INDEV_BLACK_WOOL = registerBlock("indev_black_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
 
+    public static final Block INDEV_RED_CARPET = registerBlock("indev_red_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(IndevWool.MOD_ID, name), block);
@@ -44,7 +47,7 @@ public class ModBlocks {
     public static void registerModBlocks(){
         IndevWool.LOGGER.info("Registering Mod Blocks for " + IndevWool.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(entries -> {
             entries.add(ModBlocks.INDEV_RED_WOOL);
             entries.add(ModBlocks.INDEV_ORANGE_WOOL);
             entries.add(ModBlocks.INDEV_YELLOW_WOOL);
@@ -61,6 +64,8 @@ public class ModBlocks {
             entries.add(ModBlocks.INDEV_LIGHT_GRAY_WOOL);
             entries.add(ModBlocks.INDEV_GRAY_WOOL);
             entries.add(ModBlocks.INDEV_BLACK_WOOL);
+
+            entries.add(ModBlocks.INDEV_RED_CARPET);
         });
     }
 }
