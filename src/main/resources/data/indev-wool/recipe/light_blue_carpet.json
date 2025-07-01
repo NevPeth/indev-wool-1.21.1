@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "indev-wool:indev_light_blue_carpet"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:light_blue_carpet"
+  }
+}

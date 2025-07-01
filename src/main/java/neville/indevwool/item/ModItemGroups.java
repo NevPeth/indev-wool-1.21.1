@@ -35,6 +35,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.INDEV_BLACK_WOOL);
 
                         entries.add(ModBlocks.INDEV_RED_CARPET);
+                        entries.add(ModBlocks.INDEV_ORANGE_CARPET);
+                        entries.add(ModBlocks.INDEV_YELLOW_CARPET);
+                        entries.add(ModBlocks.INDEV_LIME_CARPET);
+                        entries.add(ModBlocks.INDEV_GREEN_CARPET);
+                        entries.add(ModBlocks.INDEV_CYAN_CARPET);
+                        entries.add(ModBlocks.INDEV_LIGHT_BLUE_CARPET);
+                        entries.add(ModBlocks.INDEV_BROWN_CARPET);
+                        entries.add(ModBlocks.INDEV_BLUE_CARPET);
+                        entries.add(ModBlocks.INDEV_PURPLE_CARPET);
+                        entries.add(ModBlocks.INDEV_MAGENTA_CARPET);
+                        entries.add(ModBlocks.INDEV_PINK_CARPET);
+                        entries.add(ModBlocks.INDEV_WHITE_CARPET);
+                        entries.add(ModBlocks.INDEV_LIGHT_GRAY_CARPET);
+                        entries.add(ModBlocks.INDEV_GRAY_CARPET);
+                        entries.add(ModBlocks.INDEV_BLACK_CARPET);
                     })
                     .build());
 

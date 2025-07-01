@@ -1,0 +1,20 @@
+{
+  "values": [
+    "indev-wool:indev_red_carpet",
+    "indev-wool:indev_orange_carpet",
+    "indev-wool:indev_yellow_carpet",
+    "indev-wool:indev_lime_carpet",
+    "indev-wool:indev_green_carpet",
+    "indev-wool:indev_cyan_carpet",
+    "indev-wool:indev_light_blue_carpet",
+    "indev-wool:indev_brown_carpet",
+    "indev-wool:indev_blue_carpet",
+    "indev-wool:indev_purple_carpet",
+    "indev-wool:indev_magenta_carpet",
+    "indev-wool:indev_pink_carpet",
+    "indev-wool:indev_white_carpet",
+    "indev-wool:indev_light_gray_carpet",
+    "indev-wool:indev_gray_carpet",
+    "indev-wool:indev_black_carpet"
+  ]
+}

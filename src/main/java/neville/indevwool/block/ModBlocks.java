@@ -34,6 +34,21 @@ public class ModBlocks {
     public static final Block INDEV_BLACK_WOOL = registerBlock("indev_black_wool", new Block(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
 
     public static final Block INDEV_RED_CARPET = registerBlock("indev_red_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_ORANGE_CARPET = registerBlock("indev_orange_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_YELLOW_CARPET = registerBlock("indev_yellow_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_LIME_CARPET = registerBlock("indev_lime_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_GREEN_CARPET = registerBlock("indev_green_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_CYAN_CARPET = registerBlock("indev_cyan_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_LIGHT_BLUE_CARPET = registerBlock("indev_light_blue_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_BROWN_CARPET = registerBlock("indev_brown_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_BLUE_CARPET = registerBlock("indev_blue_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_PURPLE_CARPET = registerBlock("indev_purple_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_MAGENTA_CARPET = registerBlock("indev_magenta_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_PINK_CARPET = registerBlock("indev_pink_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_WHITE_CARPET = registerBlock("indev_white_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_LIGHT_GRAY_CARPET = registerBlock("indev_light_gray_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_GRAY_CARPET = registerBlock("indev_gray_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
+    public static final Block INDEV_BLACK_CARPET = registerBlock("indev_black_carpet", new CarpetBlock(AbstractBlock.Settings.create().strength(0.1F).sounds(BlockSoundGroup.WOOL).burnable()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -66,6 +81,21 @@ public class ModBlocks {
             entries.add(ModBlocks.INDEV_BLACK_WOOL);
 
             entries.add(ModBlocks.INDEV_RED_CARPET);
+            entries.add(ModBlocks.INDEV_ORANGE_CARPET);
+            entries.add(ModBlocks.INDEV_YELLOW_CARPET);
+            entries.add(ModBlocks.INDEV_LIME_CARPET);
+            entries.add(ModBlocks.INDEV_GREEN_CARPET);
+            entries.add(ModBlocks.INDEV_CYAN_CARPET);
+            entries.add(ModBlocks.INDEV_LIGHT_BLUE_CARPET);
+            entries.add(ModBlocks.INDEV_BROWN_CARPET);
+            entries.add(ModBlocks.INDEV_BLUE_CARPET);
+            entries.add(ModBlocks.INDEV_PURPLE_CARPET);
+            entries.add(ModBlocks.INDEV_MAGENTA_CARPET);
+            entries.add(ModBlocks.INDEV_PINK_CARPET);
+            entries.add(ModBlocks.INDEV_WHITE_CARPET);
+            entries.add(ModBlocks.INDEV_LIGHT_GRAY_CARPET);
+            entries.add(ModBlocks.INDEV_GRAY_CARPET);
+            entries.add(ModBlocks.INDEV_BLACK_CARPET);
         });
     }
 }
