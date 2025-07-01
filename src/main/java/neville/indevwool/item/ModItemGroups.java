@@ -17,6 +17,10 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.INDEV_RED_WOOL))
                     .displayName(Text.translatable("itemgroup.indev-wool.indev_wool_blocks"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.INDEV_WHITE_WOOL);
+                        entries.add(ModBlocks.INDEV_LIGHT_GRAY_WOOL);
+                        entries.add(ModBlocks.INDEV_GRAY_WOOL);
+                        entries.add(ModBlocks.INDEV_BLACK_WOOL);
                         entries.add(ModBlocks.INDEV_RED_WOOL);
                         entries.add(ModBlocks.INDEV_ORANGE_WOOL);
                         entries.add(ModBlocks.INDEV_YELLOW_WOOL);
@@ -29,11 +33,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.INDEV_PURPLE_WOOL);
                         entries.add(ModBlocks.INDEV_MAGENTA_WOOL);
                         entries.add(ModBlocks.INDEV_PINK_WOOL);
-                        entries.add(ModBlocks.INDEV_WHITE_WOOL);
-                        entries.add(ModBlocks.INDEV_LIGHT_GRAY_WOOL);
-                        entries.add(ModBlocks.INDEV_GRAY_WOOL);
-                        entries.add(ModBlocks.INDEV_BLACK_WOOL);
 
+                        entries.add(ModBlocks.INDEV_WHITE_CARPET);
+                        entries.add(ModBlocks.INDEV_LIGHT_GRAY_CARPET);
+                        entries.add(ModBlocks.INDEV_GRAY_CARPET);
+                        entries.add(ModBlocks.INDEV_BLACK_CARPET);
                         entries.add(ModBlocks.INDEV_RED_CARPET);
                         entries.add(ModBlocks.INDEV_ORANGE_CARPET);
                         entries.add(ModBlocks.INDEV_YELLOW_CARPET);
@@ -46,10 +50,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.INDEV_PURPLE_CARPET);
                         entries.add(ModBlocks.INDEV_MAGENTA_CARPET);
                         entries.add(ModBlocks.INDEV_PINK_CARPET);
-                        entries.add(ModBlocks.INDEV_WHITE_CARPET);
-                        entries.add(ModBlocks.INDEV_LIGHT_GRAY_CARPET);
-                        entries.add(ModBlocks.INDEV_GRAY_CARPET);
-                        entries.add(ModBlocks.INDEV_BLACK_CARPET);
                     })
                     .build());
 
